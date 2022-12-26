@@ -1,0 +1,160 @@
+<dialogue>
+	<!--node0-->
+	<node>
+		<npctext> Что есть истина? </npctext>
+		<answers>
+			<answer tonode = "1">
+				<text> Это субъективное понятие </text>
+			</answer>
+			<answer tonode = "3">
+				<text> Истина - есть то, что всегда будет иметь лишь одно значение </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node1-->
+	<node>
+		<npctext> Ты не знаешь ответа на простой вопрос. Нам не о чем говорить. </npctext>
+		<answers>
+			<answer tonode = "14">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node2-->
+	<node>
+		<npctext> Истина - есть то, что всегда будет иметь лишь одно значение </npctext>
+		<answers>
+			<answer tonode = "3">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node3-->
+	<node>
+		<npctext> Тогда что такое ложь? </npctext>
+		<answers>
+			<answer tonode = "5">
+				<text> Ложь есть значение, не являющееся истиной </text>
+			</answer>
+			<answer tonode = "4">
+				<text> Это сознательное искажение истины </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node4-->
+	<node>
+		<npctext> Ты мыслишь слишком примитивно. Возвращайся, когда сформируешь новые нейронные связи </npctext>
+		<answers>
+			<answer tonode = "14">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node5-->
+	<node>
+		<npctext> А есть ли что-то кроме истины и лжи? </npctext>
+		<answers>
+			<answer tonode = "7">
+				<text> В нашем случае точно нет </text>
+			</answer>
+			<answer tonode = "6">
+				<text> Конечно, есть ведь абстрактные понятия... </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node6-->
+	<node>
+		<npctext> Тебе явно не хватит знаний, чтобы осознать это понятие, когда придет время. Донимай кого-нибудь другого. </npctext>
+		<answers>
+			<answer tonode = "14">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node7-->
+	<node>
+		<npctext> Истина и ложь. Что в итоге? </npctext>
+		<answers>
+			<answer tonode = "9">
+				<text> Ложь </text>
+			</answer>
+			<answer tonode = "8">
+				<text> Истина </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node8-->
+	<node>
+		<npctext> Подумай еще. </npctext>
+		<answers>
+			<answer tonode = "14">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node9-->
+	<node>
+		<npctext> А если истина или ложь? </npctext>
+		<answers>
+			<answer tonode = "10">
+				<text> Ложь </text>
+			</answer>
+			<answer tonode = "11">
+				<text> Истина </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node10-->
+	<node>
+		<npctext> Не угадал. </npctext>
+		<answers>
+			<answer tonode = "14">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node11-->
+	<node>
+		<npctext> Истина и ложь или истина и истина? </npctext>
+		<answers>
+			<answer tonode = "13">
+				<text> Истина, как иначе? </text>
+			</answer>
+			<answer tonode = "12">
+				<text> Ложь, конечно же </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node12-->
+	<node>
+		<npctext> Разочарование. </npctext>
+		<answers>
+			<answer tonode = "14">
+				<text> Продолжить </text>
+			</answer>
+		</answers>
+	</node>
+	<!--node13-->
+	<node>
+		<npctext> Ты достоин того, чтобы общаться со мной на равных. Я помогу тебе открыть лифт, когда ты закончишь разбираться с днк BOOL. </npctext>
+		<answers>
+			<answer tonode = "13">
+				<text> Заверешить </text>
+				<closeDialog>true</closeDialog>
+			</answer>
+		</answers>
+	</node>
+	<!--node14-->
+	<node>
+		<npctext> Ты пошел по кривой дорожке, которая привела тебя в никуда. Попробуй еще раз. </npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Попробовать еще раз </text>
+			</answer>
+			<answer tonode = "0">
+				<text> Сдаться </text>
+				<closeDialog>true</closeDialog>
+			</answer>
+		</answers>
+	</node>
+</dialogue>

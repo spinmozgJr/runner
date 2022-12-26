@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PuzzlePiece
+  - TextPuzzle
+  - Puzzle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2695624055
+    locked: 0
+  - name: PlayerBehindGlasses
+    uniqueID: 3510390371
+    locked: 0
+  - name: TRCase
+    uniqueID: 1682039373
+    locked: 0
+  - name: TRGlass
+    uniqueID: 154343967
+    locked: 0
+  - name: Glasses
+    uniqueID: 1783873101
+    locked: 0
+  - name: Walls
+    uniqueID: 1881103795
+    locked: 0
+  - name: Cases
+    uniqueID: 2997341005
+    locked: 0
+  - name: PlayerInFrontOfTable
+    uniqueID: 2325568047
+    locked: 0
+  - name: Player
+    uniqueID: 3420934377
+    locked: 0
+  - name: PlayerBehindTables
+    uniqueID: 1951058297
+    locked: 0
+  - name: Puzzle
+    uniqueID: 2386477091
+    locked: 0
+  - name: Puzzle piece
+    uniqueID: 2932054625
+    locked: 0
